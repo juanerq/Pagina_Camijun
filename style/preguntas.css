@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #6e60a3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.tarjeta{
+    display: none;
+    height: auto;
+    width: 300px;
+}
+
+
+.imagen{
+
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.imagen img{
+    position: absolute;
+    z-index: 10;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: top;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.685);
+
+}
+.imagen img:hover{
+    z-index: 0;
+    
+}
+
+.pregunta{
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    z-index: 0;
+    cursor: pointer;
+}
+.pregunta h2{
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-family: 'Patrick Hand', cursive;
+}
+.pregunta:hover{ 
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.651);
+    z-index: 10;
+}
+
+b{
+    text-transform: uppercase;
+}
+.opciones{
+    padding: 8px 8px;
+    border-radius: 8px;
+    line-height: 22px;
+    margin-top: 10px;
+    width: 284px;
+    height: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.685);
+}
+.opciones:hover{
+    color: #fff;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.respuesta{
+    padding: 8px 8px;
+    border-radius: 8px;
+    line-height: 22px;
+    margin-top: 10px;
+    width: 284px;
+    height: 100%;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.685);
+}
+.colorVerde{
+    background-color: greenyellow;
+}
+.colorRojo{
+    background-color: rgb(255, 47, 47);
+    color: #fff;
+}
+
+.ositos{
+    width: 250px;
+    margin: 0 110px;
+}
+#abrazo{
+    position:absolute;
+    right: 0;
+    width: 350px;
+    display: none;
+}
