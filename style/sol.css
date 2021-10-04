@@ -70,7 +70,7 @@ header ul li a:hover, .activo{
 section{
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 600px;
     padding: 0px;
     overflow: hidden;
 }
@@ -315,7 +315,7 @@ i:last-of-type{
 }
 .cuerpo_frente h1{
     color: #fff;
-    line-height: 40px;
+    line-height: 55px;
     width: 100%;
     height: 40px; 
 }

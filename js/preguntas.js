@@ -14,6 +14,7 @@ let $11 = document.getElementById('11');
 
 let opciones = document.querySelectorAll(".opciones");
 let abrazo = document.getElementById("abrazo");
+let triste = document.getElementById("triste");
 let milk = document.getElementById("milk");
 let mocha = document.getElementById("mocha");
 
@@ -52,6 +53,7 @@ for(let i = 0; i < opciones.length;i++){
 
                 mocha.style.display = 'none';
                 milk.style.display = 'none';
+                triste.style.display = 'none';
                 abrazo.style.display = 'block';
 
                 
@@ -68,6 +70,9 @@ for(let i = 0; i < opciones.length;i++){
                 opciones[i].innerHTML = 'Me rompiste el cora 😭';
                 validar = 'incorrecto';
 
+                mocha.style.display = 'none';
+                milk.style.display = 'none';
+                triste.style.display = 'block';
 
                 if(pregMostrada.length == numTarjetas-1){
                     pregMostrada = [];
