@@ -90,7 +90,7 @@ tarjeta_1.addEventListener('mouseout', () =>{
 tarjeta_2.addEventListener('mouseout', () =>{
     if(comenzar2){
         comenzar2 = false;
-        excribirTexto('.typed2','☀️💜El sol se esconde como dos hermosos ojos verdosos que ocultan los párpados⛅🍀, el frío inunda un poco el color nieve de su piel❄️, pero gracias al amor que esconde ese corazoncito se podrá defender a cobija y pijama🐻🥰, está niña que tengo en mi mente me hace más cuerdo y loco al mismo tiempo🤭; aún no lo explicaré porque se aproximan muchos sueñitos deseosos de llamar su atención y ser acariciados por esas manos tan cálidas🤗👻, no se porque las note más que esas dos estrellas deslumbrantes✨, tal vez es porque puedo tocarlas, besarlas, acariciarlas y no simplemente mirarlas como cualquiera🥺😘, pero está noche se trata de soñar con la musa que me motivo a escribir este poema 💜🌻☄️👩‍❤️‍👨')
+        excribirTexto('.typed2','☀️💜El sol se esconde como dos hermosos ojos verdosos que ocultan los párpados⛅🍀, el frío inunda un poco el color nieve de su piel❄️, pero gracias al amor que esconde ese corazoncito se podrá defender a cobija y pijama🐻🥰, está niña que tengo en mi mente me hace más cuerdo y loco al mismo tiempo🤭; aún no lo explicaré porque se aproximan muchos sueñitos deseosos de llamar su atención y ser acariciados por esas manos tan cálidas🤗👻, no se porque las note más que esas dos estrellas deslumbrantes✨, tal vez es porque puedo tocarlas, besarlas, acariciarlas y no simplemente mirarlas como cualquiera🥺😘, pero está noche se trata de soñar con la musa que me motivo a escribir este poema 💜☄️👩‍❤️‍👨')
     }
 })
 
